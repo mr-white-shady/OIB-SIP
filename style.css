@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: black;
+  color: white;
+}
+
+header {
+  background: black;
+  text-align: center;
+  padding: 30px;
+  border-bottom: 3px solid orange;
+}
+
+header h1 {
+  color: orange;
+  font-size: 50px;
+  text-shadow: 0 0 10px red;
+}
+
+nav {
+  background: #111;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: orange;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: red;
+}
+
+section {
+  padding: 40px;
+}
+
+h2 {
+  color: orange;
+  border-bottom: 2px solid red;
+  display: inline-block;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project {
+  flex: 1 1 300px;
+  background: #111;
+  border: 2px solid orange;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px red;
+}
+
+.project h3 {
+  color: red;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+footer {
+  background: black;
+  color: orange;
+  text-align: center;
+  padding: 15px;
+  border-top: 2px solid red;
+}
